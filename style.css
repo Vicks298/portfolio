@@ -1,36 +1,36 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
-    color: #333;
-}
-
-header {
-    background: #1e1e1e;
-    color: #fff;
-    padding: 40px;
-    text-align: center;
-}
-
-header a {
-    color: #61dafb;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
-}
-
-section h2 {
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #61dafb;
     color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 
-footer {
-    background: #1e1e1e;
+.btn:hover {
+    background-color: #21a1f1;
     color: #fff;
-    text-align: center;
-    padding: 20px;
 }
+
+/* Project sections */
+.project {
+    background: #fff;
+    margin: 20px 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Skills list styling */
+.skills ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
